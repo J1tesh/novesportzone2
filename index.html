@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Novesport Zone</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+   
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo6.png"></a>
+            <div class="nav-links" id="navLinks">
+                 
+                <i class="fa fa-times" onclick="hideMenu()"></i> 
+        
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="games.html.html">GAMES</a></li>
+                    <li><a href="login.html.html">LOGIN</a> </li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="about.html.html">ABOUT US</a></li>
+                    <li><a href="contact .html.html">CONTACT US</a></li>
+                
+                    
+                </ul>
+            </div>
+          
+
+            <i class="fa fa-bars" onclick="showeMenu()"></i>
+        
+        </nav>
+
+                 <div class="text-box">
+                    <h1> SPORTS MANAGEMENT SYSTEM</h1>
+                    <p>The Sports Management System (SMS) objective is to provide which manages the activity of many sports at a time.<br> It also manages the selection activity of students to college and to state level.
+                    </p>
+                    <a href="login.html.html" class="hero-btn"> Enroll now</a>
+                        
+                    </a>
+                
+                </div> 
+    </section>
+   <!--  ---------games---- -->
+   <section class="games">
+       <h1>Games keeps us fit</h1>
+       <p>Games keep us bodily fit and free from disease or illness. We learn to remain active and smart by playing.</p>
+
+       <div class="row">
+           <div class="games-col">
+               <h3>The cricket</h3>
+               <p>Cricket is a game played with bat and ball having 11 players on each side of the two teams.</p>
+               <a href=""class="hero-btn"> Enroll now</a>
+           </div>
+           <div class="games-col">
+            <h3>The Basketball</h3>
+            <p>basketball, game played between two teams of five players each on a rectangular court..</p>
+            <a href=""class="hero-btn"> Enroll now</a>
+        </div>
+        <div class="games-col">
+            <h3>The Badminton</h3>
+            <p>Badminton is a racquet sport played using racquets to hit a shuttlecock across a net..</p>
+            <a href=""class="hero-btn"> Enroll now</a>
+        </div>
+       
+       </div>
+
+   </section>
+  <!--  --------about it------ -->
+   <section class="Organisation">
+       <h1>Our Organisation</h1>
+       <p> Our Sport organizations play a critical role in the development of sport, especially at an elite level.<br> They do so by not only encouraging 'athletes' training but also creating plans to improve "athletes" skills so that they can either achieve excellence or, more broadly, stay fit. </p>
+      
+       <div class="row">
+        <div class="Organisation-col">
+        <img src="images/office.jpeg">
+        <div class="layer">
+            <h3>BULANDSHAHR</h3>
+        </div>
+        </div>
+       
+            <div class="Organisation-col">
+            <img src="images/august-phlieger-CREqtqgBFcU-unsplash.jpg">
+            <div class="layer">
+                <h3>DELHI</h3>
+            </div>
+            </div>
+
+                <div class="Organisation-col">
+                <img src="images/nayi.jpeg">
+                <div class="layer">
+                    <h3>NOIDA</h3> 
+                </div>
+                </div>
+   </div>
+    </section>
+    <!------Review------->
+    <section class="Review">
+        <h1>what our students say</h1>
+        <p> justify by the  student of our organizations and it is our honest review</p>
+            <div class="row">
+               
+                <div class="Review-col">
+                    <img src="images/IMG_20191118_153949.jpg">
+                    <div>
+                        <p> Wonderful exprience of working with this organistion and happy to glad about it</p>
+                        <h3>The YASH</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    
+                    </div>
+                </div>
+                <div class="Review-col">
+                    <img src="images/Screenshot 2022-05-22 220001.png">
+                    <div>
+                        <p> Wonderful exprience of working with this organistion and happy to glad about it</p>
+                        <h3>Srinidhi Shetty</h3>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- -----------Call to action------ -->
+    <section class="cta">
+        <h1>Enroll now our various games</h1>
+        <a href="contact .html.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+   <!--  ---------FOOTER------- -->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>The purpose of this is to provide detail how this system manages the activity of much sport at a time...</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>   
+            
+        </div>
+        <p>Made with  <i class="fa fa-heart"></i> by BCA students of Ip college,BULANDSHAHR</p>
+    </section>
+
+
+
+<!------javascript for tooggle menu---------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showeMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }   
+         </script>
+</body>
+</html>
